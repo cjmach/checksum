@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="RootCommandDescription" xml:space="preserve">
+        <value>Imprime ou verifica hash checksums.</value>
+    </data>
+    <data name="PrintCommandDescription" xml:space="preserve">
+        <value>Imprime hash checksums.</value>
+    </data>
+    <data name="CheckCommandDescription" xml:space="preserve">
+        <value>Lê hash checksums a partir de FILEs e verifica se correspondem.</value>
+    </data>
+    <data name="AlgorithmOptionDescription" xml:space="preserve">
+        <value>O nome do algoritmo de hash a usar. Valores suportados: sha, sha1, md5, sha256, sha384, sha512.</value>
+    </data>
+    <data name="FilesArgumentDescription" xml:space="preserve">
+        <value>Uma lista de ficheiros a processar. Se a lista estiver vazia (ou se o primeiro FILE é -), os dados são lidos do stdin.</value>
+    </data>
+    <data name="IOFileError" xml:space="preserve">
+        <value>[ERROR] Falha ao processar {0}: {1}</value>
+    </data>
+    <data name="InvalidHashAlgorithmError" xml:space="preserve">
+        <value>[ERROR] Algoritmo de hash inválido: {0}</value>
+    </data>
+    <data name="InvalidHashStringError" xml:space="preserve">
+        <value>[ERROR] Formato de dados inválido: hash inválida.</value>
+    </data>
+    <data name="InvalidModeError" xml:space="preserve">
+        <value>[ERROR] Formato de dados inválido: modo inválido.</value>
+    </data>
+    <data name="InvalidFileNameError" xml:space="preserve">
+        <value>[ERROR] Formato de dados inválido: nome de ficheiro inválido.</value>
+    </data>
+    <data name="InvalidChecksumStringError" xml:space="preserve">
+        <value>[ERROR] Formato de dados inválido: string de checksum inválida.</value>
+    </data>
+    <data name="VerifySuccessMessage" xml:space="preserve">
+        <value>{0}: Sucesso</value>
+    </data>
+    <data name="VerifyFailedMessage" xml:space="preserve">
+        <value>{0}: Falha</value>
+    </data>
+</root>

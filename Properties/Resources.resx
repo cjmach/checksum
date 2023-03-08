@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <data name="RootCommandDescription" xml:space="preserve">
+        <value>Print or check hash checksums.</value>
+    </data>
+    <data name="PrintCommandDescription" xml:space="preserve">
+        <value>Print hash checksums.</value>
+    </data>
+    <data name="CheckCommandDescription" xml:space="preserve">
+        <value>Read hash sums from the FILEs and check them.</value>
+    </data>
+    <data name="AlgorithmOptionDescription" xml:space="preserve">
+        <value>The hash algorithm implementation to use. Supported values: sha, sha1, md5, sha256, sha384, sha512.</value>
+    </data>
+    <data name="FilesArgumentDescription" xml:space="preserve">
+        <value>A list of files to process. If the list is empty (or first FILE is -), data is read from standard input.</value>
+    </data>
+    <data name="IOFileError" xml:space="preserve">
+        <value>[ERROR] Failed to process {0}: {1}</value>
+    </data>
+    <data name="InvalidHashAlgorithmError" xml:space="preserve">
+        <value>[ERROR] Not a valid hash algorithm: {0}</value>
+    </data>
+    <data name="InvalidHashStringError" xml:space="preserve">
+        <value>[ERROR] Unexpected data format: invalid hash string.</value>
+    </data>
+    <data name="InvalidModeError" xml:space="preserve">
+        <value>[ERROR] Unexpected data format: invalid mode.</value>
+    </data>
+    <data name="InvalidFileNameError" xml:space="preserve">
+        <value>[ERROR] Unexpected data format: invalid file name.</value>
+    </data>
+    <data name="InvalidChecksumStringError" xml:space="preserve">
+        <value>[ERROR] Unexpected data format: invalid checksum string.</value>
+    </data>
+    <data name="VerifySuccessMessage" xml:space="preserve">
+        <value>{0}: OK</value>
+    </data>
+    <data name="VerifyFailedMessage" xml:space="preserve">
+        <value>{0}: Failed</value>
+    </data>
+</root>
