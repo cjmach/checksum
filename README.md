@@ -1,6 +1,6 @@
 # checksum
 
-A .NET Core command-line application to print and check hash checksums.
+A .NET Core command-line application to print and check hash checksums. Mostly for academic purposes.
 
 # Requirements
 
